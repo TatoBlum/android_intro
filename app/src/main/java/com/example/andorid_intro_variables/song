@@ -1,0 +1,28 @@
+package com.example.andorid_intro_variables
+import android.util.Log
+
+/*
+Homework Assignment #2: Variables
+ Song attributes
+*/
+
+class Song {
+    val artistName : String = "Sting"
+    val songName : String = "Song #1"
+    val yearReleased : Int = 2021
+    val genre : String = ""
+    val rate : Char = 'R'
+    val durationMinutes : Double = 3.35
+
+    fun printAll () {
+        Log.d("Song name",songName)
+        Log.d("Song artist",artistName)
+        Log.d("Song genre",genre)
+        Log.d("Song duration in minutes",durationMinutes.toString())
+        Log.d("Song rate", rate.toString())
+        Log.d("Song name", yearReleased.toString())
+    }
+}
+
+
+
